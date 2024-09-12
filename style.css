@@ -39,3 +39,13 @@ input[type="color"] {
 input[type="range"] {
     width: 200px;
 }
+
+select {
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
