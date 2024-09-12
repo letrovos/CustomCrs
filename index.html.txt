@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomCr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CustomCr</h1>
+    <div class="crosshair-preview">
+        <canvas id="crosshairCanvas"></canvas>
+    </div>
+    <div class="controls">
+        <label for="color">Color:</label>
+        <input type="color" id="colorPicker" value="#00FF00">
+        
+        <label for="size">Size:</label>
+        <input type="range" id="sizeSlider" min="10" max="100" value="50">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
